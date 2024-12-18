@@ -41,7 +41,7 @@ export default function Home() {
     };
 
     return (
-        <div className="flex w-screen h-screen items-center justify-center p-4 bg-amber-50">
+        <div className="flex w-screen h-screen items-center justify-center p-4 bg-amber-50 ">
             <textarea
                 className="w-2/3 h-full min-h-full rounded-xl shadow p-4 outline-none text-2xl"
                 placeholder={"type here..."}
