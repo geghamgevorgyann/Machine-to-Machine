@@ -11,10 +11,10 @@ connectDB();
 const httpServer = createServer();
 const io = new Server(httpServer, {
     cors: {
-        origin: 'https://machine-to-machine.vercel.app',
+        origin: '*',
         methods: ['GET', 'POST'],
     },
-    allowEIO3: true,
+    transports: ["polling"],
 });
 
 // Map to track save operations
