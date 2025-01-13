@@ -11,7 +11,7 @@ connectDB();
 const httpServer = createServer();
 const io = new Server(httpServer, {
     cors: {
-        origin: '*',
+        origin: 'https://machine-to-machine.vercel.app',
         methods: ['GET', 'POST'],
     },
     allowEIO3: true,
