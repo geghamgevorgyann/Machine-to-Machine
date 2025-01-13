@@ -14,6 +14,7 @@ const io = new Server(httpServer, {
         origin: '*',
         methods: ['GET', 'POST'],
     },
+    allowEIO3: true,
 });
 
 // Map to track save operations
